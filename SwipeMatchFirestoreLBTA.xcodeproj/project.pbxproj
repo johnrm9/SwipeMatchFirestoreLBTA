@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC18CC28218AE1C60086A066 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18CC27218AE1C60086A066 /* Extensions+UIView.swift */; };
+		DC18CC2A218AE2A30086A066 /* Extensions+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18CC29218AE2A30086A066 /* Extensions+UIColor.swift */; };
+		DC18CC2C218AE3AB0086A066 /* Extensions+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18CC2B218AE3AB0086A066 /* Extensions+UIStackView.swift */; };
+		DC18CC2E218AE42E0086A066 /* Extensions+UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18CC2D218AE42E0086A066 /* Extensions+UIEdgeInsets.swift */; };
+		DC1C45C421954426005343D0 /* Extensions+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C45C321954426005343D0 /* Extensions+CGSize.swift */; };
+		DC2BF19F2190968900117136 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BF19E2190968900117136 /* Generics.swift */; };
+		DC2BF1A121909B3400117136 /* Extensions+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BF1A021909B3400117136 /* Extensions+UIButton.swift */; };
+		DC439877219161D400AB0FE9 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC439876219161D400AB0FE9 /* CardViewModel.swift */; };
+		DC4398792191649C00AB0FE9 /* CardViewModelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4398782191649C00AB0FE9 /* CardViewModelsList.swift */; };
+		DC44941C2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44941B2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift */; };
+		DC550B2B2196A5C900A4BDE5 /* BarsStackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC550B2A2196A5C900A4BDE5 /* BarsStackview.swift */; };
+		DC5C21F9218C138D0009A756 /* BaseStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5C21F8218C138D0009A756 /* BaseStackView.swift */; };
+		DC5C21FB218C14B30009A756 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5C21FA218C14B30009A756 /* HomeBottomControlsStackView.swift */; };
+		DC5C21FD218C15430009A756 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5C21FC218C15430009A756 /* TopNavigationStackView.swift */; };
+		DC5F5F612197D46800D7C2A9 /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F5F602197D46800D7C2A9 /* Extensions+String.swift */; };
+		DC6271D62192B7DF000DC8B1 /* User+ProducesCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6271D52192B7DF000DC8B1 /* User+ProducesCardViewModel.swift */; };
+		DC6271D82192B89A000DC8B1 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6271D72192B89A000DC8B1 /* Advertiser.swift */; };
+		DC6271DA2192B8F6000DC8B1 /* Advertiser+ProducesCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6271D92192B8F6000DC8B1 /* Advertiser+ProducesCardViewModel.swift */; };
+		DC722253218D8CD900B662C0 /* Extensions+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC722252218D8CD900B662C0 /* Extensions+CGFloat.swift */; };
+		DC84D698218ADD37000460E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84D697218ADD37000460E2 /* AppDelegate.swift */; };
+		DC84D69A218ADD37000460E2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84D699218ADD37000460E2 /* HomeController.swift */; };
+		DC84D69F218ADD37000460E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC84D69E218ADD37000460E2 /* Assets.xcassets */; };
+		DC84D6A2218ADD37000460E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC84D6A0218ADD37000460E2 /* LaunchScreen.storyboard */; };
+		DC9317652194363500CCD402 /* Extensions+CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9317642194363500CCD402 /* Extensions+CAGradientLayer.swift */; };
+		DC994B49218C9721005199D3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC994B48218C9721005199D3 /* BaseView.swift */; };
+		DC994B4B218C979C005199D3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC994B4A218C979C005199D3 /* CardView.swift */; };
+		DCB3B35A219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3B359219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift */; };
+		DCCC00DD218C248900761BFF /* TestImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC00DC218C248900761BFF /* TestImages.xcassets */; };
+		DCE989C8218FC252002F1377 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE989C7218FC252002F1377 /* User.swift */; };
+		EE1DCFFC5835CB8905D1D97D /* Pods_SwipeMatchFirestoreLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A1BC5CEB39D9682BE2ED87 /* Pods_SwipeMatchFirestoreLBTA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59A2A80B89F19F53170337BD /* Pods-SwipeMatchFirestoreLBTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMatchFirestoreLBTA.debug.xcconfig"; path = "Target Support Files/Pods-SwipeMatchFirestoreLBTA/Pods-SwipeMatchFirestoreLBTA.debug.xcconfig"; sourceTree = "<group>"; };
+		6A1C1100372F3074196DF3A0 /* Pods-SwipeMatchFirestoreLBTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMatchFirestoreLBTA.release.xcconfig"; path = "Target Support Files/Pods-SwipeMatchFirestoreLBTA/Pods-SwipeMatchFirestoreLBTA.release.xcconfig"; sourceTree = "<group>"; };
+		D8A1BC5CEB39D9682BE2ED87 /* Pods_SwipeMatchFirestoreLBTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeMatchFirestoreLBTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC18CC27218AE1C60086A066 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		DC18CC29218AE2A30086A066 /* Extensions+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIColor.swift"; sourceTree = "<group>"; };
+		DC18CC2B218AE3AB0086A066 /* Extensions+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIStackView.swift"; sourceTree = "<group>"; };
+		DC18CC2D218AE42E0086A066 /* Extensions+UIEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIEdgeInsets.swift"; sourceTree = "<group>"; };
+		DC1C45C321954426005343D0 /* Extensions+CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+CGSize.swift"; sourceTree = "<group>"; };
+		DC2BF19E2190968900117136 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		DC2BF1A021909B3400117136 /* Extensions+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIButton.swift"; sourceTree = "<group>"; };
+		DC439876219161D400AB0FE9 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		DC4398782191649C00AB0FE9 /* CardViewModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModelsList.swift; sourceTree = "<group>"; };
+		DC44941B2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
+		DC550B2A2196A5C900A4BDE5 /* BarsStackview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsStackview.swift; sourceTree = "<group>"; };
+		DC5C21F8218C138D0009A756 /* BaseStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStackView.swift; sourceTree = "<group>"; };
+		DC5C21FA218C14B30009A756 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		DC5C21FC218C15430009A756 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		DC5F5F602197D46800D7C2A9 /* Extensions+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
+		DC6271D52192B7DF000DC8B1 /* User+ProducesCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+ProducesCardViewModel.swift"; sourceTree = "<group>"; };
+		DC6271D72192B89A000DC8B1 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		DC6271D92192B8F6000DC8B1 /* Advertiser+ProducesCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Advertiser+ProducesCardViewModel.swift"; sourceTree = "<group>"; };
+		DC722252218D8CD900B662C0 /* Extensions+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+CGFloat.swift"; sourceTree = "<group>"; };
+		DC84D694218ADD37000460E2 /* SwipeMatchFirestoreLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestoreLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC84D697218ADD37000460E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC84D699218ADD37000460E2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		DC84D69E218ADD37000460E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC84D6A1218ADD37000460E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC84D6A3218ADD37000460E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9317642194363500CCD402 /* Extensions+CAGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+CAGradientLayer.swift"; sourceTree = "<group>"; };
+		DC994B48218C9721005199D3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DC994B4A218C979C005199D3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DCB3B359219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIGestureRecognizer.swift"; sourceTree = "<group>"; };
+		DCCC00DC218C248900761BFF /* TestImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TestImages.xcassets; sourceTree = "<group>"; };
+		DCE989C7218FC252002F1377 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC84D691218ADD37000460E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1DCFFC5835CB8905D1D97D /* Pods_SwipeMatchFirestoreLBTA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29121A18085202DBBD8F4C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59A2A80B89F19F53170337BD /* Pods-SwipeMatchFirestoreLBTA.debug.xcconfig */,
+				6A1C1100372F3074196DF3A0 /* Pods-SwipeMatchFirestoreLBTA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C90B3D1CC66BBBA1360FAF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A1BC5CEB39D9682BE2ED87 /* Pods_SwipeMatchFirestoreLBTA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC18CC26218AE1690086A066 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC9317642194363500CCD402 /* Extensions+CAGradientLayer.swift */,
+				DC722252218D8CD900B662C0 /* Extensions+CGFloat.swift */,
+				DC1C45C321954426005343D0 /* Extensions+CGSize.swift */,
+				DC44941B2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift */,
+				DC5F5F602197D46800D7C2A9 /* Extensions+String.swift */,
+				DC18CC29218AE2A30086A066 /* Extensions+UIColor.swift */,
+				DC18CC2D218AE42E0086A066 /* Extensions+UIEdgeInsets.swift */,
+				DC2BF1A021909B3400117136 /* Extensions+UIButton.swift */,
+				DCB3B359219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift */,
+				DC18CC2B218AE3AB0086A066 /* Extensions+UIStackView.swift */,
+				DC18CC27218AE1C60086A066 /* Extensions+UIView.swift */,
+				DC2BF19E2190968900117136 /* Generics.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC4398752191619300AB0FE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC439876219161D400AB0FE9 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DC43987A21916B1A00AB0FE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC84D699218ADD37000460E2 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC550B2C2196A65900A4BDE5 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				DC994B4A218C979C005199D3 /* CardView.swift */,
+				DC550B2A2196A5C900A4BDE5 /* BarsStackview.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		DC5C21F7218C13520009A756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C21FA218C14B30009A756 /* HomeBottomControlsStackView.swift */,
+				DC5C21FC218C15430009A756 /* TopNavigationStackView.swift */,
+				DC550B2C2196A65900A4BDE5 /* CardView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC84D68B218ADD37000460E2 = {
+			isa = PBXGroup;
+			children = (
+				DC84D696218ADD37000460E2 /* SwipeMatchFirestoreLBTA */,
+				DC84D695218ADD37000460E2 /* Products */,
+				B29121A18085202DBBD8F4C3 /* Pods */,
+				C90B3D1CC66BBBA1360FAF07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC84D695218ADD37000460E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC84D694218ADD37000460E2 /* SwipeMatchFirestoreLBTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC84D696218ADD37000460E2 /* SwipeMatchFirestoreLBTA */ = {
+			isa = PBXGroup;
+			children = (
+				DC84D697218ADD37000460E2 /* AppDelegate.swift */,
+				DCCC00DB218C245100761BFF /* Resources */,
+				DCE989C6218FC221002F1377 /* Model */,
+				DC5C21F7218C13520009A756 /* Views */,
+				DC4398752191619300AB0FE9 /* ViewModels */,
+				DC43987A21916B1A00AB0FE9 /* Controllers */,
+				DC18CC26218AE1690086A066 /* Extensions */,
+				DCE989CD218FD6DD002F1377 /* Helpers */,
+				DC84D69E218ADD37000460E2 /* Assets.xcassets */,
+				DC84D6A0218ADD37000460E2 /* LaunchScreen.storyboard */,
+				DC84D6A3218ADD37000460E2 /* Info.plist */,
+			);
+			path = SwipeMatchFirestoreLBTA;
+			sourceTree = "<group>";
+		};
+		DCCC00DB218C245100761BFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC00DC218C248900761BFF /* TestImages.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCE989C6218FC221002F1377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC6271D72192B89A000DC8B1 /* Advertiser.swift */,
+				DC6271D92192B8F6000DC8B1 /* Advertiser+ProducesCardViewModel.swift */,
+				DCE989C7218FC252002F1377 /* User.swift */,
+				DC6271D52192B7DF000DC8B1 /* User+ProducesCardViewModel.swift */,
+				DC4398782191649C00AB0FE9 /* CardViewModelsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCE989CD218FD6DD002F1377 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC994B48218C9721005199D3 /* BaseView.swift */,
+				DC5C21F8218C138D0009A756 /* BaseStackView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC84D693218ADD37000460E2 /* SwipeMatchFirestoreLBTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC84D6A6218ADD37000460E2 /* Build configuration list for PBXNativeTarget "SwipeMatchFirestoreLBTA" */;
+			buildPhases = (
+				9643E36DB9D958BB33023796 /* [CP] Check Pods Manifest.lock */,
+				DC18CC25218AE0FA0086A066 /* SwiftLint */,
+				DC84D690218ADD37000460E2 /* Sources */,
+				DC84D691218ADD37000460E2 /* Frameworks */,
+				DC84D692218ADD37000460E2 /* Resources */,
+				7B68F2683084E63B9333BA66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeMatchFirestoreLBTA;
+			productName = SwipeMatchFirestoreLBTA;
+			productReference = DC84D694218ADD37000460E2 /* SwipeMatchFirestoreLBTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC84D68C218ADD37000460E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "John Martin";
+				TargetAttributes = {
+					DC84D693218ADD37000460E2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DC84D68F218ADD37000460E2 /* Build configuration list for PBXProject "SwipeMatchFirestoreLBTA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC84D68B218ADD37000460E2;
+			productRefGroup = DC84D695218ADD37000460E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC84D693218ADD37000460E2 /* SwipeMatchFirestoreLBTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC84D692218ADD37000460E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84D6A2218ADD37000460E2 /* LaunchScreen.storyboard in Resources */,
+				DCCC00DD218C248900761BFF /* TestImages.xcassets in Resources */,
+				DC84D69F218ADD37000460E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B68F2683084E63B9333BA66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeMatchFirestoreLBTA/Pods-SwipeMatchFirestoreLBTA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GestureRecognizerClosures/GestureRecognizerClosures.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GestureRecognizerClosures.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeMatchFirestoreLBTA/Pods-SwipeMatchFirestoreLBTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9643E36DB9D958BB33023796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeMatchFirestoreLBTA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC18CC25218AE0FA0086A066 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC84D690218ADD37000460E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F5F612197D46800D7C2A9 /* Extensions+String.swift in Sources */,
+				DC6271D82192B89A000DC8B1 /* Advertiser.swift in Sources */,
+				DC4398792191649C00AB0FE9 /* CardViewModelsList.swift in Sources */,
+				DCE989C8218FC252002F1377 /* User.swift in Sources */,
+				DC5C21FD218C15430009A756 /* TopNavigationStackView.swift in Sources */,
+				DC44941C2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift in Sources */,
+				DC84D69A218ADD37000460E2 /* HomeController.swift in Sources */,
+				DC722253218D8CD900B662C0 /* Extensions+CGFloat.swift in Sources */,
+				DC18CC2C218AE3AB0086A066 /* Extensions+UIStackView.swift in Sources */,
+				DC84D698218ADD37000460E2 /* AppDelegate.swift in Sources */,
+				DC550B2B2196A5C900A4BDE5 /* BarsStackview.swift in Sources */,
+				DCB3B35A219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift in Sources */,
+				DC18CC28218AE1C60086A066 /* Extensions+UIView.swift in Sources */,
+				DC6271D62192B7DF000DC8B1 /* User+ProducesCardViewModel.swift in Sources */,
+				DC439877219161D400AB0FE9 /* CardViewModel.swift in Sources */,
+				DC18CC2E218AE42E0086A066 /* Extensions+UIEdgeInsets.swift in Sources */,
+				DC2BF19F2190968900117136 /* Generics.swift in Sources */,
+				DC5C21FB218C14B30009A756 /* HomeBottomControlsStackView.swift in Sources */,
+				DC994B49218C9721005199D3 /* BaseView.swift in Sources */,
+				DC9317652194363500CCD402 /* Extensions+CAGradientLayer.swift in Sources */,
+				DC1C45C421954426005343D0 /* Extensions+CGSize.swift in Sources */,
+				DC5C21F9218C138D0009A756 /* BaseStackView.swift in Sources */,
+				DC994B4B218C979C005199D3 /* CardView.swift in Sources */,
+				DC18CC2A218AE2A30086A066 /* Extensions+UIColor.swift in Sources */,
+				DC6271DA2192B8F6000DC8B1 /* Advertiser+ProducesCardViewModel.swift in Sources */,
+				DC2BF1A121909B3400117136 /* Extensions+UIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC84D6A0218ADD37000460E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC84D6A1218ADD37000460E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC84D6A4218ADD37000460E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC84D6A5218ADD37000460E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC84D6A7218ADD37000460E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A2A80B89F19F53170337BD /* Pods-SwipeMatchFirestoreLBTA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8DNC7F7PU;
+				INFOPLIST_FILE = SwipeMatchFirestoreLBTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnMartin.SwipeMatchFirestoreLBTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC84D6A8218ADD37000460E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1C1100372F3074196DF3A0 /* Pods-SwipeMatchFirestoreLBTA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8DNC7F7PU;
+				INFOPLIST_FILE = SwipeMatchFirestoreLBTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnMartin.SwipeMatchFirestoreLBTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC84D68F218ADD37000460E2 /* Build configuration list for PBXProject "SwipeMatchFirestoreLBTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC84D6A4218ADD37000460E2 /* Debug */,
+				DC84D6A5218ADD37000460E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC84D6A6218ADD37000460E2 /* Build configuration list for PBXNativeTarget "SwipeMatchFirestoreLBTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC84D6A7218ADD37000460E2 /* Debug */,
+				DC84D6A8218ADD37000460E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC84D68C218ADD37000460E2 /* Project object */;
+}
