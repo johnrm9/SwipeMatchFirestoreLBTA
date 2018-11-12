@@ -14,15 +14,21 @@ func make<T>(_ setup: ((T) -> Void)) -> T where T: NSObject {
     return obj
 }
 
-extension Collection {
-    subscript(safe index: Index) -> Iterator.Element? {
-        guard indices.contains(index) else { return nil }
-        return self[index]
-    }
-}
+//extension Collection {
+//    subscript(safe index: Index) -> Iterator.Element? {
+//        guard indices.contains(index) else { return nil }
+//        return self[index]
+//    }
+//}
 
 extension Array {
     public init(count: Int, elementCreator: @autoclosure () -> Element) {
         self = (0 ..< count).map { _ in elementCreator() }
+    }
+}
+extension Collection where Index: Comparable {
+    subscript (safe index: Index) -> Iterator.Element? {
+        guard startIndex <= index, index < endIndex else { return nil }
+        return self[index]
     }
 }

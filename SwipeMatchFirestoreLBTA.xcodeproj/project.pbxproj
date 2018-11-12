@@ -34,8 +34,11 @@
 		DC994B49218C9721005199D3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC994B48218C9721005199D3 /* BaseView.swift */; };
 		DC994B4B218C979C005199D3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC994B4A218C979C005199D3 /* CardView.swift */; };
 		DCB3B35A219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3B359219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift */; };
+		DCBAD6712198EF2B00CE70A6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAD6702198EF2B00CE70A6 /* CustomTextField.swift */; };
+		DCBAD6732198F49D00CE70A6 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAD6722198F49D00CE70A6 /* RegistrationController.swift */; };
 		DCCC00DD218C248900761BFF /* TestImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC00DC218C248900761BFF /* TestImages.xcassets */; };
 		DCE989C8218FC252002F1377 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE989C7218FC252002F1377 /* User.swift */; };
+		DCFAEA182199615F003F18E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFAEA172199615F003F18E8 /* Constants.swift */; };
 		EE1DCFFC5835CB8905D1D97D /* Pods_SwipeMatchFirestoreLBTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A1BC5CEB39D9682BE2ED87 /* Pods_SwipeMatchFirestoreLBTA.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +75,11 @@
 		DC994B48218C9721005199D3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		DC994B4A218C979C005199D3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DCB3B359219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIGestureRecognizer.swift"; sourceTree = "<group>"; };
+		DCBAD6702198EF2B00CE70A6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DCBAD6722198F49D00CE70A6 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		DCCC00DC218C248900761BFF /* TestImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TestImages.xcassets; sourceTree = "<group>"; };
 		DCE989C7218FC252002F1377 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCFAEA172199615F003F18E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				DC84D699218ADD37000460E2 /* HomeController.swift */,
+				DCBAD6722198F49D00CE70A6 /* RegistrationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 			children = (
 				DC5C21FA218C14B30009A756 /* HomeBottomControlsStackView.swift */,
 				DC5C21FC218C15430009A756 /* TopNavigationStackView.swift */,
+				DCBAD6702198EF2B00CE70A6 /* CustomTextField.swift */,
 				DC550B2C2196A65900A4BDE5 /* CardView */,
 			);
 			path = Views;
@@ -220,6 +228,7 @@
 			children = (
 				DC994B48218C9721005199D3 /* BaseView.swift */,
 				DC5C21F8218C138D0009A756 /* BaseStackView.swift */,
+				DCFAEA172199615F003F18E8 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -368,14 +377,17 @@
 				DC4398792191649C00AB0FE9 /* CardViewModelsList.swift in Sources */,
 				DCE989C8218FC252002F1377 /* User.swift in Sources */,
 				DC5C21FD218C15430009A756 /* TopNavigationStackView.swift in Sources */,
+				DCFAEA182199615F003F18E8 /* Constants.swift in Sources */,
 				DC44941C2190BD120077EE7D /* Extensions+NSMutableAttributedString.swift in Sources */,
 				DC84D69A218ADD37000460E2 /* HomeController.swift in Sources */,
 				DC722253218D8CD900B662C0 /* Extensions+CGFloat.swift in Sources */,
+				DCBAD6712198EF2B00CE70A6 /* CustomTextField.swift in Sources */,
 				DC18CC2C218AE3AB0086A066 /* Extensions+UIStackView.swift in Sources */,
 				DC84D698218ADD37000460E2 /* AppDelegate.swift in Sources */,
 				DC550B2B2196A5C900A4BDE5 /* BarsStackview.swift in Sources */,
 				DCB3B35A219342D600A9FC17 /* Extensions+UIGestureRecognizer.swift in Sources */,
 				DC18CC28218AE1C60086A066 /* Extensions+UIView.swift in Sources */,
+				DCBAD6732198F49D00CE70A6 /* RegistrationController.swift in Sources */,
 				DC6271D62192B7DF000DC8B1 /* User+ProducesCardViewModel.swift in Sources */,
 				DC439877219161D400AB0FE9 /* CardViewModel.swift in Sources */,
 				DC18CC2E218AE42E0086A066 /* Extensions+UIEdgeInsets.swift in Sources */,

@@ -6,6 +6,7 @@
 //  Copyright © 2018 John Martin. All rights reserved.
 //
 
+import GestureRecognizerClosures
 import UIKit
 
 class HomeController: UIViewController {
@@ -22,6 +23,8 @@ class HomeController: UIViewController {
 
         setupLayout()
         setupDummyCards()
+
+        setupTopButtonsHandlers()
     }
 
     // MARK: - Fileprivate
@@ -41,5 +44,29 @@ class HomeController: UIViewController {
         overallStackView.fillSuperSafeAreaView()
 
         overallStackView.bringSubviewToFront(cardsDeckView)
+    }
+
+    fileprivate func setupTopButtonsHandlers() {
+        for subview in topStackView.subviews where TopButtons.foundTag(rawValue: subview.tag) {
+            let button: UIButton = subview as! UIButton
+            button.onTap {_ in self.handleTopButtons(button) }
+        }
+    }
+
+    fileprivate func handleTopButtons(_ sender: UIButton) {
+        guard let topButton = TopButtons(rawValue: sender.tag) else { return }
+        switch topButton {
+        case .settings: handleSettings()
+        case .message: handleMessage()
+        }
+    }
+
+    fileprivate func handleSettings() {
+        let registrationController = RegistrationController()
+        present(registrationController, animated: true)
+    }
+
+    fileprivate func handleMessage() {
+        print(#function)
     }
 }

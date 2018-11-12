@@ -67,3 +67,4 @@ class CardViewModel: ImageIndexObserver {
         imageIndex = max(firstImageIndex, imageIndex - 1)
     }
 }
+

@@ -8,10 +8,20 @@
 
 import UIKit
 
+enum TopButtons: Int, CaseIterable {
+    case settings = 1001
+    case message =  1002
+
+    static func foundTag(rawValue: Int) -> Bool {
+        guard let `case` = TopButtons(rawValue: rawValue) else { return false }
+        return allCases.contains(`case`)
+    }
+}
+
 class TopNavigationStackView: BaseStackView {
 
-    private let settingsButton: UIButton = .systemButton(image: #imageLiteral(resourceName: "top_left_profile"))
-    private let messageButton: UIButton = .systemButton(image: #imageLiteral(resourceName: "top_right_messages"))
+    private let settingsButton: UIButton = .systemButton(image: #imageLiteral(resourceName: "top_left_profile"), tag: TopButtons.settings.rawValue)
+    private let messageButton: UIButton  = .systemButton(image: #imageLiteral(resourceName: "top_right_messages"), tag: TopButtons.message.rawValue)
 
     private let fireImageView: UIImageView = {
         let imageView = UIImageView(image: #imageLiteral(resourceName: "app_icon"))
