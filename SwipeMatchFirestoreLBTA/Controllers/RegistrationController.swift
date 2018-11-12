@@ -9,7 +9,7 @@
 import UIKit
 
 class RegistrationController: UIViewController {
-    private let gradientLayer = CAGradientLayer(colors: RegistrationGradientLayer.colors, locations: [0, 1])
+    private let gradientLayer = CAGradientLayer(colors: RegistrationGradientLayer.colors)
 
     private let selectPhotoButton: UIButton = { (_ height: CGFloat) in
         let button: UIButton = .systemButton(title: "Select Photo",
