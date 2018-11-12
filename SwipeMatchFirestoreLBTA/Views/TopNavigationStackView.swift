@@ -12,9 +12,10 @@ enum TopButtons: Int, CaseIterable {
     case settings = 1001
     case message =  1002
 
-    static func foundTag(rawValue: Int) -> Bool {
-        guard let `case` = TopButtons(rawValue: rawValue) else { return false }
-        return allCases.contains(`case`)
+    static func foundButtonsInView(_ view: UIView) -> [UIButton] {
+        return allCases.map { (topButton) -> UIButton in
+            return view.viewWithTag(topButton.rawValue) as! UIButton
+        }
     }
 }
 

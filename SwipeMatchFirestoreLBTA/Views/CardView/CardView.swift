@@ -70,7 +70,7 @@ class CardView: BaseView {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        gradientLayer.frame = self.frame
+        gradientLayer.frame = self.bounds
     }
 
     // MARK: - Image Index Observer

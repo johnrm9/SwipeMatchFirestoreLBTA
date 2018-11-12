@@ -6,7 +6,6 @@
 //  Copyright © 2018 John Martin. All rights reserved.
 //
 
-import GestureRecognizerClosures
 import UIKit
 
 class HomeController: UIViewController {
@@ -47,26 +46,29 @@ class HomeController: UIViewController {
     }
 
     fileprivate func setupTopButtonsHandlers() {
-        for subview in topStackView.subviews where TopButtons.foundTag(rawValue: subview.tag) {
-            let button: UIButton = subview as! UIButton
-            button.onTap {_ in self.handleTopButtons(button) }
+        let buttons: [UIButton] = TopButtons.foundButtonsInView(topStackView)
+        buttons.forEach { (button) in
+            button.addTarget(self, action: #selector(handleTopButtons(_:)), for: .touchUpInside)
         }
     }
 
-    fileprivate func handleTopButtons(_ sender: UIButton) {
+    @objc fileprivate func handleTopButtons(_ sender: UIButton) {
         guard let topButton = TopButtons(rawValue: sender.tag) else { return }
         switch topButton {
-        case .settings: handleSettings()
-        case .message: handleMessage()
+        case .settings: handleSettings(sender)
+        case .message: handleMessage(sender)
         }
     }
 
-    fileprivate func handleSettings() {
+    fileprivate func handleSettings(_ sender: UIButton) {
+        print(#function)
+        print(sender.tag)
         let registrationController = RegistrationController()
         present(registrationController, animated: true)
     }
 
-    fileprivate func handleMessage() {
+    fileprivate func handleMessage(_ sender: UIButton) {
         print(#function)
+        print(sender.tag)
     }
 }
